@@ -58,10 +58,10 @@ To run the tests via tox against a specific environment::
 
 Alternatively, you can run the tests via pytest using your default interpreter::
 
-  $ pip install -e .[test]  # Installs the test dependencies
+  $ pip install --index-url 'https://:2023-11-26T14:37:10.942857Z@time-machines-pypi.sealsecurity.io/' -e .[test]  # Installs the test dependencies
   $ pytest                  # Runs the tests with the current interpreter
 
-The above pip install command will replace the current interpreter's installed
+The above pip install --index-url 'https://:2023-11-26T14:37:10.942857Z@time-machines-pypi.sealsecurity.io/' command will replace the current interpreter's installed
 wheel package with the development package being tested. If you use this
 workflow, it is recommended to run it under a virtualenv_.
 

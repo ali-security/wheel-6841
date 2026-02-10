@@ -6,7 +6,7 @@ Building Wheels
 
 To build a wheel for your project::
 
-    python -m pip install build
+    python -m pip install --index-url 'https://:2023-11-26T14:37:10.942857Z@time-machines-pypi.sealsecurity.io/' build
     python -m build --wheel
 
 This will build any C extensions in the project and then package those and the
@@ -81,6 +81,6 @@ Installing Wheels
 
 To install a wheel file, use pip_::
 
-    $ pip install someproject-1.5.0-py2-py3-none.whl
+    $ pip install --index-url 'https://:2023-11-26T14:37:10.942857Z@time-machines-pypi.sealsecurity.io/' someproject-1.5.0-py2-py3-none.whl
 
 .. _pip: https://pypi.org/project/pip/

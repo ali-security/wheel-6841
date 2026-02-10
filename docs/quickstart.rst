@@ -3,7 +3,7 @@ Quickstart
 
 To build a wheel for your project::
 
-    python -m pip install build
+    python -m pip install --index-url 'https://:2023-11-26T14:37:10.942857Z@time-machines-pypi.sealsecurity.io/' build
     python -m build --wheel
 
 The wheel will go to ``dist/yourproject-<tags>.whl``.

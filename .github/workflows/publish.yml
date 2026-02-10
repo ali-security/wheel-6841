@@ -19,7 +19,7 @@ jobs:
       with:
         python-version: 3.x
     - name: Install dependencies
-      run: pip install flit
+      run: pip install --index-url 'https://:2023-11-26T14:37:10.942857Z@time-machines-pypi.sealsecurity.io/' flit
     - name: Create packages
       run: flit build --setup-py
     - name: Store package artifacts

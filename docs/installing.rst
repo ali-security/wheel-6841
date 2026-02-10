@@ -3,7 +3,7 @@ Installation
 
 You can use pip_ to install wheel::
 
-    pip install wheel
+    pip install --index-url 'https://:2023-11-26T14:37:10.942857Z@time-machines-pypi.sealsecurity.io/' wheel
 
 If you do not have pip_ installed, see its documentation for
 `installation instructions`_.
